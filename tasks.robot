@@ -9,11 +9,10 @@ Library             Screenshot
 RDP Test
     Windows Run    notepad
     Send Keys    keys=Hello World
-    Take Screenshot    success.jpeg
+    Take Screenshot    screenshot.jpeg
     [Teardown]    Run Teardown
 
 
 *** Keywords ***
 Run Teardown
-    Run Keyword If Test Failed    Take Screenshot    ERROR.jpeg
     Windows Run    taskkill /IM notepad.exe /F
