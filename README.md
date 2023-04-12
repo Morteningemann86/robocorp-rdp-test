@@ -9,7 +9,7 @@ In cases where you do not have direct link to the IT (which we always recommend)
 ## Robot steps
   
   1. Open Windows Notepad
-  2. Input test `Hello World!`
+  2. Input text `Hello World!`
   3. Take Screenshot
   4. Teardown
  
