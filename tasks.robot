@@ -9,7 +9,7 @@ Library             Screenshot
 RDP Test
     Windows Run    notepad
     Send Keys    keys=Hello World!
-    Take Screenshot    screenshot.jpeg
+    Take Screenshot    ${OUTPUT_DIR}${/}screenshot.jpeg
     [Teardown]    Run Teardown
 
 
