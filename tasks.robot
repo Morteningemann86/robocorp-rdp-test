@@ -8,7 +8,7 @@ Library             Screenshot
 *** Tasks ***
 RDP Test
     Windows Run    notepad
-    Send Keys    keys=Hello World
+    Send Keys    keys=Hello World!
     Take Screenshot    screenshot.jpeg
     [Teardown]    Run Teardown
 
